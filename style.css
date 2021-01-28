@@ -72,6 +72,7 @@ a {
     box-shadow: 1px 1px 3px 1px silver, -1px -1px 3px 1px silver;
 }
 .search-input {
+    font-size: 13px;
     
     width: 100%;
     border: none;
@@ -150,7 +151,7 @@ a {
     transition: all 0.3s ease 0s;
     background: #1652f0;
     color: white;
-    font-size: 11.56px;
+    font-size: 13px;
     
 }
 .submenu {
