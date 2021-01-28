@@ -67,6 +67,7 @@ a {
     border-bottom-left-radius: 3px;
 }
 .search-div:focus-within {
+    border: none;
     box-shadow: 1px 1px 3px 1px silver, -1px -1px 3px 1px silver;
 }
 .search-input {
