@@ -65,17 +65,19 @@ a {
     border-bottom-right-radius: 3px;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
+    
 }
-.search-div:focus-within {
-    border: none;
+.search-div:focus-within{
     box-shadow: 1px 1px 3px 1px silver, -1px -1px 3px 1px silver;
 }
 .search-input {
+    outline: none;
     width: 100%;
     border: none;
     background: inherit;
 }
 .bsearch {
+    outline: none;
     border: none;
     cursor: pointer;
     width: 40px;
