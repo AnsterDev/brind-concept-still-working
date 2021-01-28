@@ -7,6 +7,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     font-family: "Inter";
+    outline: none;
 }
 body {
     background: #f4f4f4;
@@ -71,13 +72,13 @@ a {
     box-shadow: 1px 1px 3px 1px silver, -1px -1px 3px 1px silver;
 }
 .search-input {
-    outline: none;
+    
     width: 100%;
     border: none;
     background: inherit;
 }
 .bsearch {
-    outline: none;
+    
     border: none;
     cursor: pointer;
     width: 40px;
@@ -150,6 +151,7 @@ a {
     background: #1652f0;
     color: white;
     font-size: 11.56px;
+    
 }
 .submenu {
     padding: 0px 23%;
