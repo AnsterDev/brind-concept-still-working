@@ -61,15 +61,15 @@ a {
     width: 683px;
     height: 40px;
     display: inline-flex;
+    border: 1px #222 solid;
    
-    background: #222;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-   
-    
 }
+
+
 .search-div:focus-within{
     
     border-bottom: 1px #1652f0 solid;
