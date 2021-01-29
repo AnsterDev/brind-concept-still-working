@@ -380,10 +380,32 @@ h2 {
     background: red;
 }
 
-.banner-tech-black{
+.banner-comunity{ 
+    background:white;   
+    height: 384px;
+    display:flex;
+    
 
-    background: white;
+
 }
+
+.banner-comunity--description{  
+    width:778px;
+    height: inherit; 
+    display:flex;
+   color:#353534;
+    display: block;
+    font-size: 48px;
+    padding: 5%;
+
+}
+
+.banner-comunity--description-1{
+    font-size: 20.85px;
+}
+
+
+
 
 
 .banner-tech-black img{
