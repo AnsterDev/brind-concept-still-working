@@ -164,7 +164,7 @@ a {
     align-items: center;
 }
 .submenu a {
-    font-size: 11.56px;
+    font-size: 13px;
     opacity: 0.9;
 }
 .submenu a:hover {
@@ -266,7 +266,7 @@ h1 {
     margin-right: 5px;
     background: black;
     border: 2px black solid;
-    border-radius: 8px;
+    border-radius: 3px;
 }
 .middle {
     padding-top: 5%;
