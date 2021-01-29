@@ -1,2 +1,2 @@
 # brind-concept-still-working
-page
+All rights reserved 2021-2021(Brind Company).
