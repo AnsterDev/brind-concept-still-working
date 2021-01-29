@@ -10,7 +10,7 @@
     outline: none;
 }
 body {
-    background: #f4f4f4;
+  background: #f4f4f4;
 }
 header {
     width: 100%;
@@ -27,8 +27,8 @@ header {
     position: absolute;
 }
 .logo {
-    width: 75px;
-    height: 28px;
+    width: 80px;
+    
     cursor: pointer;
     margin-right: auto;
     display: inline;
@@ -61,19 +61,22 @@ a {
     width: 683px;
     height: 40px;
     display: inline-flex;
-    background: #f6f6ef;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+   
+    background: #222;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+   
     
 }
 .search-div:focus-within{
-    box-shadow: 1px 1px 3px 1px silver, -1px -1px 3px 1px silver;
+    
+    border-bottom: 1px #1652f0 solid;
 }
 .search-input {
     font-size: 13px;
-    
+    color: white;
     width: 100%;
     border: none;
     background: inherit;
@@ -146,7 +149,7 @@ a {
     height: 40px;
     padding: 9px 25px;
     border: none;
-    border-radius: 3px;
+    border-radius: 0px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     background: #1652f0;
@@ -218,7 +221,7 @@ h1 {
     width: 341px;
     height: 50px;
     border: 2px white solid;
-    border-radius: 3px;
+    border-radius: 0px;
     background: inherit;
     color: white;
     justify-content: center;
@@ -266,7 +269,7 @@ h1 {
     margin-right: 5px;
     background: black;
     border: 2px black solid;
-    border-radius: 3px;
+    border-radius: 0px;
 }
 .middle {
     padding-top: 5%;
@@ -317,9 +320,9 @@ h1 {
     opacity: 0.7;
     width: 120px;
     height: 120px;
-    border-radius: 3px;
+    border-radius: 8px;
     margin-right: 20px;
-    box-shadow: 1px 1px 2px 1px silver;
+    box-shadow: 0px 3px 3px 1px silver;
 }
 .category-item-text {
     width: 200px;
@@ -352,15 +355,15 @@ h1 {
     display: flex;
     -webkit-box-pack: justify;
     padding: 0px 2% 0px 2%;
-    margin: 10% 0% 2% 0%;
+    margin: 5% 0% 2% 0%;
 }
 .banner-item {
     width: 303px;
     height: 384px;
 }
 .banner-item img {
-    border-radius: 3px;
-    box-shadow: 1px 1px 2px 0px silver;
+    border-radius: 0px;
+  
     width: 303px;
     height: 384px;
 }
@@ -378,12 +381,10 @@ h2 {
 }
 
 .banner-tech-black{
-   
-    
-    background: #111;
-    
-    
+
+    background: white;
 }
+
 
 .banner-tech-black img{
     width: 100%;
@@ -395,7 +396,7 @@ h2 {
     height: 384px;
     font-family: "Inter";
     text-align: center;
-    background: #111;
+    background: white;
     padding: 5%;
 }
 
@@ -493,10 +494,24 @@ h2 {
     width: 100%;
     height: 38.7vh;
     padding: 0% 2% 0% 2%;
-    background: #f4f4f4;
+    
+    
+ 
 }
 .layout-products-with-price-div img {
-    border-radius: 3px;
+    border-radius: 0px;
+    
+}
+
+
+.banner-1-container {
+    width: 632px;
+    height: 256px;
+    background: white;
+    border-radius: 0px;
+    
+    display: flex;
+    box-shadow: 0px 3px 2px 1px silver; 
 }
 .banner-1-title {
     padding: 25px;
@@ -518,26 +533,20 @@ h2 {
     height: 40px;
     padding: 9px 25px;
     border: none;
-    border-radius: 3px;
+    border-radius: 0px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     background: #1652f0;
     color: white;
     font-size: 11.56px;
 }
-.banner-1-container {
-    width: 632px;
-    height: 256px;
-    background: white;
-    border-radius: 3px;
-    box-shadow: 1px 1px 2px 0px silver;
-    display: flex;
-}
+
 .banner-1-container-secondary {
     width: 300px;
     height: 256px;
-    border-radius: 3px;
-    box-shadow: 1px 1px 2px 0px silver;
+    border-radius: 0px;
+    box-shadow: 0px 3px 2px 1px silver; 
+  
 }
 .banner-1-secondary-part1 img {
     width: 300px;
@@ -548,12 +557,12 @@ h2 {
     height: 95px;
     position: absolute;
     transform: translateY(-50px);
-    border-radius: 3px;
+    border-radius: 0px;
     margin-left: 10px;
     z-index: 2;
 }
 .banner-1-secondary-part2 img {
-    border-radius: 3px;
+    border-radius: 0px;
     transform: translateY(-4px);
     z-index: 1;
     width: 300px;
@@ -563,8 +572,8 @@ h2 {
 .banner-1-container-third img {
     width: 303px;
     height: 256px;
-    border-radius: 3px;
-    box-shadow: 1px 1px 2px 0px silver;
+    border-radius: 0px;
+    box-shadow: 0px 3px 2px 1px silver; 
     background: #f9f871;
 }
 footer {
