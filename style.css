@@ -72,7 +72,7 @@ a {
 
 .search-div:focus-within{
     
-    border-bottom: 1px #1652f0 solid;
+    border-bottom: 1px #0082FF solid;
 }
 .search-input {
     font-size: 13px;
@@ -111,7 +111,7 @@ a {
     transition: all 0.3s ease 0s;
 }
 .nav-items a:hover {
-    color: #1652f0;
+    color: #0082FF;
 }
 .nav-items span {
     position: absolute;
@@ -122,7 +122,7 @@ a {
 }
 .div-down-arrow:hover {
     transform: scaleY(-1);
-    fill: #1652f0;
+    fill: #0082FF;
 }
 #svg-down-arrow {
     margin-left: 43px;
@@ -152,7 +152,9 @@ a {
     border-radius: 0px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    background: #1652f0;
+    background: #0082FF;
+   
+
     color: white;
     font-size: 13px;
     
@@ -171,7 +173,7 @@ a {
     opacity: 0.9;
 }
 .submenu a:hover {
-    color: #1652f0;
+    color: #0082FF;
 }
 .span-dot-burn {
     margin: -1px;
@@ -187,7 +189,7 @@ a {
 }
 .span-dot-user {
     margin-left: 20px;
-    fill: #1652f0;
+    fill: #0082FF;
     transform: translateY(-10px);
 }
 #div1 {
@@ -196,10 +198,14 @@ a {
     padding-left: 5%;
     text-align: left;
     font-family: "Inter";
-    background-color: #1652f0;
+    background-color: #0082FF;
     color: white;
     display: flex;
+    
 }
+
+
+
 .primary {
     padding-top: 7%;
     width: 60%;
@@ -227,6 +233,7 @@ h1 {
     justify-content: center;
     align-items: center;
     font-weight: 700;
+  
 }
 .register:hover {
     box-shadow: 2px 2px 2px 0px silver;
@@ -272,7 +279,9 @@ h1 {
     border-radius: 0px;
 }
 .middle {
+    background:rgba(255, 255, 255, 0.2);
     padding-top: 5%;
+  
 }
 .secondary {
     width: 200px;
@@ -401,6 +410,7 @@ h2 {
 }
 
 .banner-comunity--description-1{
+    color:#35353484;
     font-size: 20.85px;
 }
 
@@ -457,7 +467,7 @@ h2 {
     font-size: 15px;
 }
 .span-view-all a {
-    color: #1652f0;
+    color: #0082FF;
 }
 .row-1 {
     font-family: "Inter";
@@ -558,7 +568,7 @@ h2 {
     border-radius: 0px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    background: #1652f0;
+    background: #0082FF;
     color: white;
     font-size: 11.56px;
 }
@@ -725,7 +735,7 @@ footer {
         width: 100%;
         height: 100%;
         display: inline-block;
-        background: #1652f0;
+        background: #0082FF;
     }
     .banner-item,
     .column-1 {
