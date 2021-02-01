@@ -172,6 +172,20 @@ border-bottom: 1px #0084ff6b solid;
 .submenu a:hover {
     color: #0082FF;
 }
+
+
+
+
+.submenu_top_svg{
+    transform: translateX(-299px);
+    margin-top: 3px;
+    position:absolute;
+}
+
+
+
+
+
 .span-dot-burn {
     margin: -1px;
     fill: #1db6ef;
@@ -348,7 +362,7 @@ h1 {
 }
 .middle {
   
-    padding-top: 4%;
+    padding-top: 5%;
     background: #0b0b0b;
 
   
