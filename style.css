@@ -17,8 +17,8 @@ header {
     background: #0b0b0b;
     display: flex;
     align-items: center;
-    padding-left:1%;
-    padding-right: 1%;
+    padding-left:1.3%;
+    padding-right: 1.3%;
     height: 60px;
  
 }
@@ -157,7 +157,7 @@ border-bottom: 1px #0084ff6b solid;
     font-weight: bold; 
 }
 .submenu {
-    padding: 0px 1%;
+    padding: 0px 1.3%;
     width: 100%;
     height: 30px;
     background: #141414;
