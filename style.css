@@ -151,8 +151,8 @@ border-bottom: 1px #0084ff6b solid;
     border-radius: 2px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    background: white;
-    color: #141414;
+    background: #0082FF;
+    color: white;
     font-size: 13px;  
     font-weight: bold; 
 }
