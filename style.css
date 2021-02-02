@@ -30,7 +30,7 @@ header {
 }
 .logo {
     
-    height: 32px;
+    height: 36px;
     fill:white;
     cursor: pointer;
     margin-right: auto;
@@ -151,8 +151,8 @@ border-bottom: 1px #0084ff6b solid;
     border-radius: 2px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    background: #0082FF;
-    color: white;
+    background: white;
+    color: #141414;
     font-size: 13px;  
     font-weight: bold; 
 }
@@ -224,7 +224,7 @@ border-bottom: 1px #0084ff6b solid;
     border-top: 2px #222 solid;
     text-align: left;
     font-family: "Inter";
-    background: #0082FF;
+    background: #0b0b0b;
     color: white;
     display: flex;
 }
@@ -377,12 +377,16 @@ h1 {
 .middle {
     width: 20%;
     padding-top: 5%;
-    background: #00FF82;
-
-  
+    background: linear-gradient(180deg, rgba(11,11,11,1) 0%, rgba(0,130,255,1) 100%);
 }
+
+
+
+
+
+
 .secondary {
-    background: #00FF82;
+    background: #0b0b0b;
     width: 20%;
     height: 100%;
 }
@@ -400,6 +404,8 @@ h1 {
         opacity: 0.5;
     }
 }
+
+
 
 .banner-comunity{
     
@@ -463,14 +469,14 @@ h1 {
 
 
 .products-grid{
+    
     padding: 5% 76px;
-    display: flex;
+    display: block;
     width: 100%;
     height: 768px;
     -moz-box-sizing: border-box;
-    background: white;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+   
+   
 
 }
 
@@ -483,7 +489,7 @@ h1 {
 }
 
 .products-grid-row-item{
-    
+    background: white;
     width: 273px;
     height:237px;
     border: 1px rgba(34, 34, 34, 0.1) solid;
