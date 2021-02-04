@@ -17,8 +17,8 @@ header {
     background: #0b0b0b;
     display: flex;
     align-items: center;
-    padding-left:1.3%;
-    padding-right: 1.5%;
+    padding-left:4%;
+    padding-right: 4%;
     height: 60px;
  
 }
@@ -60,7 +60,6 @@ a {
     height: 40px;
     display: inline-flex;
     border: 1px #222 solid;
-   
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
     border-top-left-radius: 2px;
@@ -221,7 +220,7 @@ border-bottom: 1px #0084ff6b solid;
 #div1 {
     width: 100%;
     height: 680px;
-    border-top: 2px #222 solid;
+   
     text-align: left;
     font-family: "Inter";
     background: #0b0b0b;
@@ -466,6 +465,7 @@ h1 {
 }
 
 .banner-zones-poster-row{
+    width: 100%;
     padding-top: 6px;
     padding-left:8px;
     height: 25px;
@@ -476,9 +476,16 @@ h1 {
     display: flex;
     margin-bottom: 10px;
     border-radius: 8px;
+    border: 1px transparent solid;
     
 }
 
+.banner-zones-poster-row:hover{
+    position: static;
+   
+    border: 1px #0082FF solid;
+    
+}
 
 
 
