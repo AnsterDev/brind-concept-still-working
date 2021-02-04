@@ -251,6 +251,12 @@ z-index: -1;
     display: flex;
 }
 
+.div1_ticket_svg{
+
+position: absolute;
+right:600px;
+bottom: -13px;
+}
 
 .submenu-2-top{
     width: 40px;
