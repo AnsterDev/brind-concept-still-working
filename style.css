@@ -8,6 +8,7 @@
     -moz-box-sizing: border-box;
     font-family: "Inter";
     outline: none;
+    fill:white;
 }
 body {
   background: #f4f4f4;
@@ -20,6 +21,8 @@ header {
     padding-left:4%;
     padding-right: 4%;
     height: 60px;
+   
+
  
 }
 .menumobile {
@@ -56,19 +59,17 @@ a {
 }
 .search-div {
     padding: 0 15px 0px 15px;
-    width: 683px;
+    width: 583px;
     height: 40px;
     display: inline-flex;
-    border: 1px #222 solid;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border: 2px #222 solid;
+   border-radius: 4px;
+
 }
 
 
 .search-div:focus-within{
-    
+
 border-bottom: 1px #0084ff6b solid;
 }
 
@@ -80,7 +81,7 @@ border-bottom: 1px #0084ff6b solid;
     background: inherit;
 }
 .bsearch {
-    
+   
     border: none;
     cursor: pointer;
     width: 40px;
@@ -91,7 +92,7 @@ border-bottom: 1px #0084ff6b solid;
 .svgsearch {
     width: 18px;
     height: 18px;
-    fill: #070a1e;
+    fill: #070a1e !important;
     align-items: center;
 }
 .nav-items {
@@ -128,6 +129,14 @@ border-bottom: 1px #0084ff6b solid;
 .langue {
     margin-right: 50px;
 }
+
+
+.country-icon {
+margin-right: 10px;
+ width: 25px;
+}
+
+
 .carshop {
     margin-right: 2vw;
 }
@@ -147,10 +156,10 @@ border-bottom: 1px #0084ff6b solid;
     height: 40px;
     padding: 9px 25px;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    background: #0082FF;
+    background: #112d4e;
     color: white;
     font-size: 13px;  
     font-weight: bold; 
@@ -217,14 +226,23 @@ border-bottom: 1px #0084ff6b solid;
     
     transform: translateY(-10px);
 }
-#div1 {
+
+
+
+.background-svg{
     width: 100%;
-    height: 680px;
-   
+position: absolute;
+z-index: -1;
+}
+#div1 {
+    
+    width: 100%;
+    height: 680px;   
     text-align: left;
     font-family: "Inter";
-    background: #0b0b0b;
+    background: #112d4e;
     color: white;
+    
     display: flex;
 }
 
@@ -247,22 +265,7 @@ height:100%;
 border-right: 2px #222 solid;
 animation: 2s submenu-2-hidden;
 transform: translateX(-50px);
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .submenu-2 a{
@@ -280,7 +283,7 @@ transform: translateX(-50px);
 }
 .primary p {
     margin: 15px;
-    font-size:16.45px;
+    font-size:16.45px; color: white;
 }
 h1 {
     font-size: 47.49px;
@@ -289,13 +292,14 @@ h1 {
 }
 #subtitle-1 {
     margin: initial;
+   color: white
 }
 .register {
     margin-top: 5%;
     width: 341px;
     height: 50px;
     border: 2px white solid;
-    border-radius: 2px;
+    border-radius: 4px;
     color: white;
     justify-content: center;
     align-items: center;
@@ -344,12 +348,12 @@ h1 {
     margin-right: 5px;
     background: black;
     border: 2px black solid;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 .middle {
     width: 20%;
     padding-top: 5%;
-    background: linear-gradient(180deg, rgba(11,11,11,1) 0%, rgba(0,130,255,1) 100%);
+  
 }
 
 
@@ -358,7 +362,7 @@ h1 {
 
 
 .secondary {
-    background: #0b0b0b;
+    
     width: 20%;
     height: 100%;
 }
@@ -378,7 +382,7 @@ h1 {
 }
 
 .submenu-nav-quantity{
-    border-radius: 2px;
+    border-radius: 4px;
     width: 10px;
     height: 15px;
     font-size: 10px;
@@ -388,7 +392,7 @@ h1 {
 }
 
 .submenu-2-nav-div-2 {
-    margin-left: 8px;
+    margin-left: 10px;
    
 }
 
@@ -433,7 +437,7 @@ h1 {
 
 .banner-zones-coin{
     display:block;
-    border-radius: 2px;
+    border-radius: 4px;
     width: 60px;
     height: 100%;
     background: #141414;
@@ -447,7 +451,7 @@ h1 {
     width: 273px;
     height: 100%;
     background: #141414;
-    border-radius: 2px;
+    border-radius: 4px;
     padding: 20px;
 }
 
@@ -474,7 +478,7 @@ h1 {
     background: #2b2b2b;
     display: flex;
     margin-bottom: 10px;
-    border-radius: 2px;
+    border-radius: 4px;
     border: 1px transparent solid;
     
 }
@@ -494,7 +498,7 @@ h1 {
     background: #141414;
     width: 473px;
     height: 100%;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 
@@ -557,7 +561,7 @@ h1 {
     width: 273px;
     height:inherit;
     
-    border-radius: 2px; 
+    border-radius: 4px; 
     
 
 }
@@ -572,7 +576,7 @@ h1 {
 .products-grid-row-item img{
     width: 273px;
     height:273px;
-    border-radius: 2px;
+    border-radius: 4px;
     padding: 15px;
 
 }
@@ -825,7 +829,7 @@ h2 {
     height: 40px;
     padding: 9px 25px;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     background: #0082FF;
