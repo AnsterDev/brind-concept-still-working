@@ -296,7 +296,6 @@ h1 {
     height: 50px;
     border: 2px white solid;
     border-radius: 2px;
-   
     color: white;
     justify-content: center;
     align-items: center;
@@ -434,7 +433,7 @@ h1 {
 
 .banner-zones-coin{
     display:block;
-    border-radius: 8px;
+    border-radius: 2px;
     width: 60px;
     height: 100%;
     background: #141414;
@@ -448,7 +447,7 @@ h1 {
     width: 273px;
     height: 100%;
     background: #141414;
-    border-radius: 8px;
+    border-radius: 2px;
     padding: 20px;
 }
 
@@ -475,7 +474,7 @@ h1 {
     background: #2b2b2b;
     display: flex;
     margin-bottom: 10px;
-    border-radius: 8px;
+    border-radius: 2px;
     border: 1px transparent solid;
     
 }
@@ -495,6 +494,7 @@ h1 {
     background: #141414;
     width: 473px;
     height: 100%;
+    border-radius: 2px;
 }
 
 
@@ -543,31 +543,37 @@ h1 {
 
 .products-grid-row{
     display:flex;
-   
+    margin-top: 10px;
+    height:312px;
     width: inherit;
-    height: 240px;
+    
     justify-content: space-between;
 }
 
 .products-grid-row-item{
+    box-shadow: 0 10px 40px -10px silver;
+ 
     background: white;
     width: 273px;
-    height:237px;
-    border: 1px rgba(34, 34, 34, 0.1) solid;
-    border-radius: 8px; 
+    height:inherit;
+    
+    border-radius: 2px; 
     
 
 }
 
 .products-grid-row-item-description{
-    padding-left:10px;
+    padding-left:15px;
+    font-size: 11px;
+    opacity: 0.7;
 
 
 }
 .products-grid-row-item img{
-    width: 272px;
-    height:207px;
-    border-radius: 8px; 
+    width: 273px;
+    height:273px;
+    border-radius: 2px;
+    padding: 15px;
 
 }
 
