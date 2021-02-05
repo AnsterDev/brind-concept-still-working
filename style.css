@@ -262,7 +262,7 @@ bottom: -13px;
 .div1_dogue_svg{
     position: absolute;
     right:600px;
-    width:300px;
+    width:200px;
     top: 230px;
    
   
@@ -460,6 +460,7 @@ h1 {
 }
 
 .banner-zones-coin{
+    overflow-y: auto;
     display:block;
     border-radius: 4px;
     width: 60px;
@@ -477,8 +478,16 @@ h1 {
     background: #141414;
     border-radius: 4px;
     padding: 20px;
+    overflow-y: auto;
 }
 
+
+.banner-zones::-webkit-scrollbar{
+    width: 90px;
+    border-radius: 8px;
+    background: #ff8200;
+
+}
 
 
 .banner-zones-poster-title{
@@ -524,6 +533,12 @@ h1 {
     height: 100%;
     border-radius: 4px;
 }
+
+
+
+
+
+
 
 
 
