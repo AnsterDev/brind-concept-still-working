@@ -252,10 +252,22 @@ z-index: -1;
 }
 
 .div1_ticket_svg{
-
+width: 200px;
 position: absolute;
-right:600px;
+right:100px;
 bottom: -13px;
+}
+
+
+.div1_dogue_svg{
+    position: absolute;
+    right:600px;
+    width:300px;
+    top: 230px;
+   
+  
+   
+  
 }
 
 .submenu-2-top{
@@ -364,6 +376,7 @@ h1 {
 .middle {
     width: 20%;
     padding-top: 5%;
+    z-index: 3;
   
 }
 
