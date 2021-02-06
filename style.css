@@ -140,10 +140,11 @@ border-bottom: 2px #112d4e solid;
 }
 
 
-.country-icon {
-margin-right: 10px;
- width: 25px;
+.choose-country {
+margin-right: 20px;
+ 
 }
+
 
 
 .carshop {
@@ -420,7 +421,7 @@ h1 {
 }
 
 .submenu-2-nav-div-2 {
-    margin-left: 10px;
+    margin-left: 10px; 
    
 }
 
@@ -435,10 +436,11 @@ h1 {
     border-radius: 40px;
     transition: all 0.3s ease 0s;
     cursor: pointer;
-    fill: white;
+   
    
 }
 .submenu-2-nav-coin-div svg{
+    fill: white;
    
     border-radius: 8px;
   
@@ -551,7 +553,7 @@ h1 {
 
 #slider {
 
-    margin-top: 24px;
+    margin-top: 23px;
     width: 60px;
     max-width: 100%;
     text-align: center;
@@ -568,6 +570,7 @@ h1 {
     z-index: 1;
  }
  #overflow {
+     background: #141414;
     width: 60px;
     overflow: hidden;
     border-radius: 4px;
@@ -668,7 +671,7 @@ h1 {
      transform: rotate(180deg);
     background: no-repeat;
     float:left;
-    margin: 0 0 0 -55px;
+    margin: 0 0 0 -54px;
     display: block;
  }
  #bullets {
