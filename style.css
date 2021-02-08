@@ -379,8 +379,7 @@ h1 {
     border-radius: 4px;
 }
 .middle {
-    width:320px;
-    
+    width:320px; 
     z-index: 3;
     padding-top: 2%;
   
