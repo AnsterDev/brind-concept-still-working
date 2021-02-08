@@ -40,7 +40,7 @@ header {
     height: 36px;
     fill:white;
     cursor: pointer;
-    margin-right: auto;
+   
     display: inline; 
 }
 
@@ -50,7 +50,7 @@ header {
     align-content: center;
     margin-right: 20px;
     margin-bottom: 5px;
-    margin-left: 3vw;
+    margin-left: 20px;
 }
 
 
@@ -136,7 +136,7 @@ border-bottom: 2px #112d4e solid;
     margin-left: 43px;
 }
 .langue {
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 
