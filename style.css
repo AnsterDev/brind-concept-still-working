@@ -259,7 +259,7 @@ z-index: -1;
 .div1_ticket_svg{
 width: 200px;
 position: absolute;
-right:100px;
+right:40px;
 bottom: -13px;
 }
 
@@ -379,26 +379,19 @@ h1 {
     border-radius: 4px;
 }
 .middle {
-    width: 20%;
-    padding-top: 5%;
+    width:320px;
+    background: white;
     z-index: 3;
   
 }
 
+.telefono{
 
-
-
-
-
-.secondary {
-    
-    width: 20%;
-    height: 100%;
+    width:320px;
+    position: absolute;
 }
-.appdescription {
-    margin-top: 43%;
-    animation: fade 0.9s;
-}
+
+
 .doge {
     width: 200px;
     transform: translateY(170px);
