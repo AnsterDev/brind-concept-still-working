@@ -36,7 +36,7 @@ header {
     position: absolute;
 }
 .logo {
-    border-right: 1px #222 solid;
+    
     height: 36px;
     fill:white;
     cursor: pointer;
@@ -156,12 +156,13 @@ margin-right: 20px;
     margin-right: 2vw;
 }
 .counter-carshop-item {
+    transform: translateY(-2px);
     width: 22px;
     font-size: 10px;
     font-weight: 800;
-    margin-left: 10px;
+    margin-left: 5px;
     position: absolute;
-    margin-bottom: 13px;
+    
     font-family: "Inter";
     color: #ff8200;
     text-align: center;
